@@ -1,0 +1,97 @@
+/** Corpo da Pagina **/
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f1f1f1;
+}
+
+/** Cabeçalho**/
+header {
+  background-color: white;
+  padding: 20px;
+}
+header h1, header h3 {
+  text-align: center;
+}
+
+/** Menu**/
+.navegacaoMenu {
+  background-color: black;
+  overflow: hidden;
+}
+.navegacaoMenu a{
+  float: left;
+  display: block;
+  color: #FFF;
+  text-align: left;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.navegacaoMenu a:hover {
+      background-color: green;
+}
+/**Colunas direita e esquerda**/
+.colunaEsquerda {
+  float: left;
+  width: 74%;
+}
+
+.colunaDireita {
+  float: right;
+  width: 25%;
+  background-color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 20px;
+}
+
+.colunaDireita p, .colunaEsquerda p {
+    text-align: justify;
+    text-indent: 30px;
+}
+
+.publicacao {
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.colunaRodape {
+  float: left;
+  width: 50%;
+}
+
+.colunaRodape {
+  float: left;
+  width: 50%;
+  background-color: black;
+  padding-left: 20px;
+  margin-top: 20px;
+}
+
+.colunaRodape footer p {
+  text-align: left;
+}
+
+.rodape p {
+  text-align: center;
+}
+
+footer {
+  color: white;
+}
+.rodape {
+  background-color: black;
+  color: white;
+  margin-top: 20px;
+  padding: 10px;
+}
