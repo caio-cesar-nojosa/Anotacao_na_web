@@ -33,6 +33,15 @@ header h1, header h3 {
       background-color: green;
 }
 /**Colunas direita e esquerda**/
+.colunaEsquerda a {
+  text-decoration: none;
+  color: black;
+}
+
+.colunaEsquerda a:hover{
+  color: green;
+}
+
 .colunaEsquerda {
   float: left;
   width: 74%;
@@ -65,6 +74,7 @@ header h1, header h3 {
     clear: both;
 }
 
+/** Rodapé **/
 .colunaRodape {
   float: left;
   width: 50%;
@@ -106,6 +116,7 @@ footer a:hover{
   padding: 10px;
 }
 
+/** Layout Responsivo **/
 @media screen and (max-width: 800px){
   .colunaDireita, .colunaEsquerda, .colunaRodape {
       width: 100%;

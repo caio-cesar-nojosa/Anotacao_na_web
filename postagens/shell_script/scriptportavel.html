@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang='pt-br'>
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Pagina Inicial</title>
+  <link rel="stylesheet" href="./../../css/postagens.css"/>
+</head>
+<body>
+  <!-- Titulo do Site -->
+  <header>
+    <h1>Anotações na Web</h1>
+    <h3> Compartilhando o meu conhecimento </h3>
+  </header>
+  <!-- Menu -->
+  <nav class="navegacaoMenu">
+      <a href="../../index.html">Home</a>
+  </nav>
+  <!--Colunas -->
+  <div class="row">
+
+    <div class="colunaEsquerda">
+      <div class="publicacao">
+        <h1>Deixar o meu shell script portável</h1>
+        <h3> Maio de 2020</h3>
+        <p>
+            Na primeira linha de uma script normalmente nós colocamos o caminho absoluto do interpretador de
+            comandos, que no meu caso é o bash acopanhado do "#!", como no exemplo abaixo:
+        </p>
+        <p>
+            #! /bin/bash
+        </p>
+        <p>
+            Essa não é uma pratica recomendada, pois nem sempre as outras distribuições vão usar esse caminho. A solução é usar o "env".
+        </p>
+        <p>
+            #! /usr/bin/env bash
+        </p>
+      </div>
+    </div>
+
+    <div class="colunaDireita">
+      <div class"publicacao">
+        <h2> Sobre o Autor </h2>
+        <p> Meu nome é Caio, formado em técnico em edificações, mas não sigo
+            sigo essa formação, o que eu gosto mesmo é de tecnologia, 
+            principalmente sobre software. Eu criei esse site estático simples 
+            para postar anotações do que estou estudando no momento.
+        </p>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Rodapé da Pagina -->
+  <div class="rodape">
+    <div class="colunaRodape">
+      <footer>
+        <h1>Menu</h1>
+        <a href="../../index.html">Home</a>
+      </footer>
+    </div>
+
+    <div class="colunaRodape">
+      <footer>
+        <h1>Contato</h1>
+        <p>Email: caiocesarnojosa@gmail.com</p>
+      <footer>
+    </div>
+    <hr>
+    <p>Criado por Caio César - 2020 </p>
+  </div>
+
+</body>
+</html>
