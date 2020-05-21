@@ -119,13 +119,13 @@ footer a:hover{
 /** Layout Responsivo **/
 @media screen and (max-width: 800px){
   .colunaDireita, .colunaEsquerda, .colunaRodape {
-      width: 100%;
-      padding: 0;
+    width: 100%;
+    padding: 0;
   }
 }
 @media screen and (max-width: 400px) {
   nav a {
-      float: none;
-      width: 100%;
+    float: none;
+    width: 100%;
   }
 }
